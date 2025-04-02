@@ -1,0 +1,12 @@
+<!-- home.html -->
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block main %}
+    <h1 class="text-center mb-4">Bienvenido a Tu Casa</h1>
+    <div class="d-flex justify-content-center">
+        <a href="{{ url_for('auth.register') }}" class="btn btn-primary mr-2">Registrarse</a>
+        <a href="{{ url_for('auth.login') }}" class="btn btn-secondary">Iniciar sesión</a>            
+    </div>
+{% endblock %}

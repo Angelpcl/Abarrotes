@@ -1,0 +1,66 @@
+/* main.css */
+.list-group-item {
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-group-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.mt-5 {
+    margin-top: 4rem !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.btn-prio {
+    background-color: #ffffff; /* White background */
+    border: 2px solid #6c757d; /* Dark gray */
+    color: #000000; /* Black text */
+    display: inline-flex; /* Use flex layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 14px; /* Smaller text */
+    padding: 6px 8px; /* Adjust padding */
+    cursor: pointer;
+    border-radius: 6px; /* Less rounded corners */
+    height: 36px; /* Ensure a minimum height */
+}
+
+.btn-prio:hover {
+    text-decoration: none; /* This avoids the text being underlined */
+    color: #000000; /* Here you set the color you want for the text when the mouse is over */
+    background-color: #f0f0f0; /* Here you set the color you want for the background when the mouse is over */
+}
+
+.btn-prio,
+.form-select {
+    height: 38px;
+}
+
+.form-select {
+    margin-right: 8px; /* Adjust this value to increase or decrease the space */
+    border-radius: 6px; /* Establecer el radio del borde, puedes cambiar este valor */
+}
